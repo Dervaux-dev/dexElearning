@@ -1,0 +1,58 @@
+/* Professional styles for CourseDetail component */
+.coursedetail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+.coursedetail-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.description {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  text-align: center;
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+.instructor {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.enroll-btn {
+  background: #28a745;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.enroll-btn:hover {
+  background: #218838;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: 'Arial', sans-serif;
+}

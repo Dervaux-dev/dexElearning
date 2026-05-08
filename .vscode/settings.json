@@ -1,0 +1,13 @@
+{
+    "cSpell.words": [
+        "coursedetail",
+        "courselist",
+        "delvo",
+        "elearning",
+        "maxlength",
+        "virtuals"
+    ],
+    "chat.tools.terminal.autoApprove": {
+        "npm run dev": true
+    }
+}

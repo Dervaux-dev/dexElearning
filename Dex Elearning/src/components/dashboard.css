@@ -1,0 +1,78 @@
+/* Professional styles for Dashboard component */
+.dashboard-container {
+  padding: 40px;
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.dashboard-container h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.user-info {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.user-info h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.user-info p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background: #ddd;
+  margin: 30px 0;
+}
+
+.enrolled-courses {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.enrolled-courses h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.enrolled-courses ul {
+  list-style: none;
+  padding: 0;
+}
+
+.enrolled-courses li {
+  background: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-left: 5px solid #a8edea;
+  transition: background 0.3s ease;
+}
+
+.enrolled-courses li:hover {
+  background: #e8f5f5;
+}
+
+.enrolled-courses p {
+  font-size: 1.2rem;
+  color: #666;
+}
